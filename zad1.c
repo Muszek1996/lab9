@@ -40,7 +40,7 @@ void main ()
     for(int j=0;j<WYMIAR;j++) {
       suma_parallel += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+             printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
     }
 #pragma omp ordered
         printf("\n");
@@ -57,7 +57,7 @@ void main ()
     for(int j=0;j<WYMIAR;j++) {
       suma_parallel += a[i][j];
 #pragma omp ordered
-      printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+             printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
     }
 #pragma omp ordered
     printf("\n");
@@ -75,7 +75,7 @@ void main ()
         for(int j=0;j<WYMIAR;j++) {
             suma_parallel += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+            printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
 #pragma omp ordered
         printf("\n");
@@ -93,7 +93,7 @@ void main ()
         for(int j=0;j<WYMIAR;j++) {
             suma_parallel += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+             printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
 #pragma omp ordered
         printf("\n");
@@ -111,7 +111,7 @@ void main ()
         for(int j=0;j<WYMIAR;j++) {
             suma_parallel += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+            printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
 #pragma omp ordered
         printf("\n");

@@ -43,7 +43,7 @@ void main ()
             int id_w = omp_get_thread_num();
             tabLocW[id_w] += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+              printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
         printf("\n");
     }
@@ -65,7 +65,7 @@ void main ()
             int id_w = omp_get_thread_num();
             tabLocW[id_w] += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+              printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
         printf("\n");
     }
@@ -88,7 +88,7 @@ void main ()
             int id_w = omp_get_thread_num();
             tabLocW[id_w] += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+             printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
         printf("\n");
     }
@@ -111,7 +111,7 @@ void main ()
             int id_w = omp_get_thread_num();
             tabLocW[id_w] += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+               printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
         printf("\n");
     }
@@ -134,7 +134,7 @@ void main ()
             int id_w = omp_get_thread_num();
             tabLocW[id_w] += a[i][j];
 #pragma omp ordered
-            printf("[%2d,%2d] W(%1d,%1d/%d) \t\t",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
+              printf("[%d,%d] W(%1d,%1d/%d) ",i,j,id_w,omp_get_thread_num(),omp_get_num_procs());
         }
         printf("\n");
     }
