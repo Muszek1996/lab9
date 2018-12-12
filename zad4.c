@@ -78,7 +78,7 @@ void main ()
     }
 
 
-    printf("Suma wyrazów tablicy równolegle: %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
+    printf("Suma wyrazów tablicy równolegle(static,3): %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
 ///////////////////////////////////////////////////
 ///////////////////////////////////////////////////
     first = omp_get_wtime();
@@ -102,7 +102,7 @@ void main ()
     }
 
 
-    printf("Suma wyrazów tablicy równolegle: %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
+    printf("Suma wyrazów tablicy równolegle(static): %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
 ///////////////////////////////////////////////////
 ///////////////////////////////////////////////////
     first = omp_get_wtime();
@@ -126,7 +126,7 @@ void main ()
     }
 
 
-    printf("Suma wyrazów tablicy równolegle: %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
+    printf("Suma wyrazów tablicy równolegle(dynamic,2): %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
 ///////////////////////////////////////////////////
 ///////////////////////////////////////////////////
     first = omp_get_wtime();
@@ -150,7 +150,7 @@ void main ()
     }
 
 
-    printf("Suma wyrazów tablicy równolegle: %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
+    printf("Suma wyrazów tablicy równolegle(dynamic): %lf czas:%lf\n", suma_parallel,omp_get_wtime()-first);
 ///////////////////////////////////////////////////
 ///////////////////////////////////////////////////
 
