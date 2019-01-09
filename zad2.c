@@ -11,6 +11,7 @@ void main ()
     printf("Kompilator rozpoznaje dyrektywy OpenMP\n");
 #endif
 
+    omp_set_num_threads(3);
     double first = omp_get_wtime();
     double a[WYMIAR][WYMIAR];
     int n,i,j;

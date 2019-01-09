@@ -1,0 +1,33 @@
+/home/jakub/Dokumenty/PR_lab/lab_9/zad1/cmake-build-debug/openmp_petle
+suma 145973.190158, czas obliczen 0.001624
+suma 145973.190158, czas obliczen rownoleglych 0.004474
+suma 337914.570455, czas obliczen rownoleglych dla wariantu idealnego 0.003228
+N:100000 threads:8
+
+Process finished with exit code 0
+
+
+/home/jakub/Dokumenty/PR_lab/lab_9/zad1/cmake-build-debug/openmp_petle
+suma 1459701.114868, czas obliczen 0.026314
+suma 1459701.114868, czas obliczen rownoleglych 0.013137
+suma 3379098.344603, czas obliczen rownoleglych dla wariantu idealnego 0.003900
+N:1000000 threads:8
+
+Process finished with exit code 0
+
+
+/home/jakub/Dokumenty/PR_lab/lab_9/zad1/cmake-build-debug/openmp_petle
+suma 1459701.114868, czas obliczen 0.016370
+suma 1459701.114868, czas obliczen rownoleglych 0.011906
+suma 3379098.344603, czas obliczen rownoleglych dla wariantu idealnego 0.007446
+N:1000000 threads:4
+
+Process finished with exit code 0
+
+/home/jakub/Dokumenty/PR_lab/lab_9/zad1/cmake-build-debug/openmp_petle
+suma 145973.190158, czas obliczen 0.001687
+suma 145973.190158, czas obliczen rownoleglych 0.001296
+suma 337914.570455, czas obliczen rownoleglych dla wariantu idealnego 0.000730
+N:100000 threads:4
+
+Process finished with exit code 0

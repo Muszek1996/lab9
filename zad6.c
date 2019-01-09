@@ -3,7 +3,7 @@
 #include <math.h>
 #include <omp.h>
 
-#define WYMIAR 10
+#define WYMIAR 35
 
 void main ()
 {
